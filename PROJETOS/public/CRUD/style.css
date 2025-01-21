@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 90%;
+    background-color: darkgray;
+}
+
+.divContainer{
+    width: 75%;
+    height: 550px;
+}
+
+.input:focus{
+    box-shadow: 0, 0, 0, 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#inputNumber::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    
+}
+
