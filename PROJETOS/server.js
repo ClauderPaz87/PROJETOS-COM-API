@@ -15,6 +15,10 @@ app.get('/CRUD', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'CRUD', 'index.html' ));
 });
 
+app.get('/LOGIN-REGISTER', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'LOGIN-REGISTER', 'index.html' ));
+});
+
 
 app.listen(3000)
  
